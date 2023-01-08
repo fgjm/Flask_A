@@ -62,7 +62,7 @@ def listar_cursos():
         cursos = cursor.fetchall()
         # print(cursos)
         data['cursos'] = cursos
-        data['mensaje'] = 'Exito'
+        data['mensaje'] = 'Exito 3'
     except Exception as ex:
         data['mensaje'] = 'Error...'
     return jsonify(data)
