@@ -1,1 +1,1 @@
-console.log('Hola m')
+console.log('Flask_frontend 2commit')
