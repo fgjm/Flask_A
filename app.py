@@ -62,7 +62,7 @@ def listar_cursos():
         cursos = cursor.fetchall()
         # print(cursos)
         data['cursos'] = cursos
-        data['mensaje'] = 'Exito 3'; print('flask_backend 1Commit')
+        data['mensaje'] = 'Exito 3'; print('flask_backend 2Commit')
     except Exception as ex:
         data['mensaje'] = 'Error...'
     return jsonify(data)
